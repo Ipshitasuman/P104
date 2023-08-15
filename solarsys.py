@@ -15,5 +15,5 @@ cv2.putText(img, "Neptune", (1090,300), cv2.FONT_HERSHEY_DUPLEX , 0.5, (255,255,
 
 
 cv2.imshow("OUTPUT", img)
-cv2.imwrite(“Solar_systemwithname.jpg”,img)
+cv2.imwrite("Solar_systemwithname.jpg",img)
 cv2.waitKey(0)
